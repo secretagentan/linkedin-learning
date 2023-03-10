@@ -43,3 +43,20 @@ Released: 11/23/2022
   - Minimum target size
 
 #### Dragging movements
+
+- Designing for users who cannot use trackpad or mouse (keyboard users only)
+  - Add scroll bar with up/down buttons
+  - Add dropdown with options to move cards to specific locations (Move left/right/down/up)
+  - Solutions may be clumsy but makes site more accessible
+
+#### Accessible interactions
+
+- New WCAG rules for button design
+  - Large enough (user may have hand tremors):
+    - At least 24px width + height (with some exceptions)
+    - May include space in between buttons
+  - Properly spaced
+    - 4px space in between
+    - Size exception: can be 20px x 20px with 4px space in between (24px total)
+  - Indicate when selected:
+    - For example, 2px border when focused/selected 
