@@ -29,3 +29,17 @@ Released: 11/23/2022
   > - Highest level of conformance
   > - Some criteria cannot be applied everywhere, so is generally not required
   > - Even meeting AAA does not make pages accessible to everyone
+
+  ### 1. Exploring WCAG 2.2
+
+  #### The struggle with automating WCAG 2.2
+
+  - Can you automate WCAG 2.2 with external software? No.
+    - However, can be helpful for beginning the process
+
+  - External modules can help with: 
+    - Minimum focus appearance
+    - Maximum focus appearance
+    - Minimum target size
+
+  #### Dragging movements
