@@ -12,34 +12,34 @@ Released: 11/23/2022
 
 - 3 levels of WCAG compliance: A, AA, AAA
 
-  > WCAG A - Minimum level:
-  > - Beginning stage, users can navigate with some issues but still have some degree of understanding
-  > - Barriers exist that cannot be overcome by assistive technology
-  > - Affects the broadest group with the most benefits and is essential
+  - WCAG A - Minimum level:
+    - Beginning stage, users can navigate with some issues but still have some degree of understanding
+    - Barriers exist that cannot be overcome by assistive technology
+    - Affects the broadest group with the most benefits and is essential
 
-  > WCAG AA - More accessible:
-  > - Standard for most, if not all commercial sites
-  > - Some barriers will still exist with the minimum level of support
-  > - Impacts certain groups of users
-  > - Should work with most assistive technology on desktop and mobile devices
-  > - May impact the look of a page or affect site logic to a greater extent
+  - WCAG AA - More accessible:
+    - Standard for most, if not all commercial sites
+    - Some barriers will still exist with the minimum level of support
+    - Impacts certain groups of users
+    - Should work with most assistive technology on desktop and mobile devices
+    - May impact the look of a page or affect site logic to a greater extent
 
-  > WCAG AAA - Even more accessible:
-  > - Standard for most/all government sites
-  > - Highest level of conformance
-  > - Some criteria cannot be applied everywhere, so is generally not required
-  > - Even meeting AAA does not make pages accessible to everyone
+  - WCAG AAA - Even more accessible:
+    - Standard for most/all government sites
+    - Highest level of conformance
+    - Some criteria cannot be applied everywhere, so is generally not required
+    - Even meeting AAA does not make pages accessible to everyone
 
-  ### 1. Exploring WCAG 2.2
+### 1. Exploring WCAG 2.2
 
-  #### The struggle with automating WCAG 2.2
+#### The struggle with automating WCAG 2.2
 
-  - Can you automate WCAG 2.2 with external software? No.
-    - However, can be helpful for beginning the process
+- Can you automate WCAG 2.2 with external software? No.
+  - However, can be helpful for beginning the process
 
-  - External modules can help with: 
-    - Minimum focus appearance
-    - Maximum focus appearance
-    - Minimum target size
+- External modules can help with:
+  - Minimum focus appearance
+  - Maximum focus appearance
+  - Minimum target size
 
-  #### Dragging movements
+#### Dragging movements
