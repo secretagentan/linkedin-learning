@@ -55,7 +55,7 @@ Released: 11/23/2022
   - Large enough (user may have hand tremors):
     - At least 24px width + height (with some exceptions)
     - May include space in between buttons
-  - Properly spaced
+  - Properly spaced:
     - 4px space in between
     - Size exception: can be 20px x 20px with 4px space in between (24px total)
   - Indicate when selected:
@@ -101,4 +101,89 @@ Released: 11/23/2022
   - Include a structured note
     - Outline layers so devs know where documentation is
 
-#### Chapter Quiz
+#### Chapter Quiz 1
+
+### 2. Designing with WCAG 2.2
+
+#### Updating an inaccessible page in Figma
+
+- User Testing
+  - First step to understanding accessibility is having users with disabilities test your site
+  - Range of disabilities, incl. hearing loss, visual impairment, motor disabilities
+
+- Figma plugin: Anima
+  - Imports HTML version of Figma file with public link
+  - Paste link into Color Contrast Accessibility Validator
+  - Then use Adee plugin for extra feedback
+
+- Accessibility is a workflow & mindset, rather than one-step automated process
+
+#### Visible controls
+
+- Hidden content
+  - Content not accessible w/ keyboard or only visible on hover
+    - Replace hover actions with click actions
+    - On click, all selections must be visible on the screen
+  - Layered hidden buttons: consolidate a clear view of all options
+
+#### Fixing inaccessible text
+
+- What makes text inaccessible:
+  - Font selection: Choose from open source or Google fonts so it's easily styled
+  - Decorative fonts: Only use for logo or decoration (not large bodies of text)
+
+- Formatting rules:
+  - Line height & spacing: At least 1.5x font size
+  - Paragraph spacing: At least 2x font size
+  - Letter spacing (tracking): At least 0.12x font size
+  - Word spacing: At least 0.16x font size
+
+- Golden Ratio Typography (GRT) Calculator (for line height)
+
+#### Accessible video
+
+- All levels require:
+  - Captions
+  - Transcript
+  - Controls: Stop/Play
+
+- Level AAA:
+  - Alternative time based media
+  - Sign language
+  - Extended audio description
+
+#### Redundant content
+
+- Redundant content is cumbersome for users with disabilities
+
+- Forms:   
+  - Consolidate info
+  - Add checkbox for duplicate info ("billing address is the same")
+
+#### Page-break navigation
+
+- Adding page markers vs. endless scrolling
+- Not a WCAG requirement - but helpful to include pagination
+
+#### Context and accessibility
+
+- Use language that all users can understand
+  - Avoid abbreviations
+  - Avoid "insider" terminology
+
+- Arrow buttons for tabbing
+  - Loop image slideshows so users don't need to tab back
+
+- Dialogue boxes/popups
+  - Make close button first in tab order
+  - Make sure that form errors are easy to understand
+
+#### Chapter Quiz 2
+
+### Conclusion
+
+#### Lay a foundation
+
+- Share your work and questions in the course Q&A
+- Download and review exercise files
+- Follow instructor on LinkedIn
