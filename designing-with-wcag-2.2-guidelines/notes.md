@@ -52,11 +52,53 @@ Released: 11/23/2022
 #### Accessible interactions
 
 - New WCAG rules for button design
-  - Large enough (user may have hand tremors):
+  1. Large enough (user may have hand tremors):
     - At least 24px width + height (with some exceptions)
     - May include space in between buttons
-  - Properly spaced
+  2. Properly spaced
     - 4px space in between
     - Size exception: can be 20px x 20px with 4px space in between (24px total)
-  - Indicate when selected:
-    - For example, 2px border when focused/selected 
+  3. Indicate when selected:
+    - For example, 2px border when focused/selected
+
+- Help button so user can ask for assistance
+
+#### Visual contrast and accessibility
+
+- Level AA Ratios
+  - 4.5 to 1 (visual presentation of text & images of text)
+  - 3 to 1 (large scale text and images of large-scale text)
+
+- [Accessibility Checker](accessibilitychecker.org)
+  - Great tool for initial review, not for quick updates on design changes
+
+- Figma plugins
+  - Adee comprehensive accessibility tool
+  - Can be used for analyzing text and graphics
+
+#### Media accessibility
+
+- Videos on websites
+  - Tab overlay indicating "Video Only" and links out to "Alternative Media Assistance"
+  - Video Only: indicates video has no audio
+  - Users with limited vision will need alternative assistance, e.g. audible description of what's happening in the video
+  - Providing captions on alternative media is NOT required - however, may help with SEO
+  - Level AAA: offering option for sign language + captions
+  - Transcription is ALWAYS required if there's audio
+
+#### Providing context for developers
+
+- Handing designs over to devs
+  - Focus state layer indicates tabbing order of elements
+  - Include context for elements on the page, e.g. images
+    - Alt text:
+      - Used primarily by screen readers
+      - Shorter than description
+    - Description:
+      - Verbal paintbrush of image itself
+      - Longer than alt text
+      - Make sure content is not redundant. Is not helpful to users
+  - Include a structured note
+    - Outline layers so devs know where documentation is
+
+#### Chapter Quiz 
