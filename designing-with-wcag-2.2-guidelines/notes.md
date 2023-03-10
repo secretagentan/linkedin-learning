@@ -1,5 +1,7 @@
 ## Designing with the WCAG 2.2 Guidelines
+
 Emma Moore, UX/UI Lead, Producer
+
 Released: 11/23/2022
 
 ### Introduction
@@ -8,7 +10,7 @@ Released: 11/23/2022
 
 #### Course use case
 
-3 levels of WCAG compliance: A, AA, AAA
+- 3 levels of WCAG compliance: A, AA, AAA
 
 > WCAG A - Minimum level:
 > - Beginning stage, users can navigate with some issues but still have some degree of understanding
