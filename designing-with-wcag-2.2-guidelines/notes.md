@@ -52,13 +52,13 @@ Released: 11/23/2022
 #### Accessible interactions
 
 - New WCAG rules for button design
-  1. Large enough (user may have hand tremors):
+  - Large enough (user may have hand tremors):
     - At least 24px width + height (with some exceptions)
     - May include space in between buttons
-  2. Properly spaced
+  - Properly spaced
     - 4px space in between
     - Size exception: can be 20px x 20px with 4px space in between (24px total)
-  3. Indicate when selected:
+  - Indicate when selected:
     - For example, 2px border when focused/selected
 
 - Help button so user can ask for assistance
@@ -101,4 +101,4 @@ Released: 11/23/2022
   - Include a structured note
     - Outline layers so devs know where documentation is
 
-#### Chapter Quiz 
+#### Chapter Quiz
